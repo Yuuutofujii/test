@@ -1,1 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>じゃんけんアプリ</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Manifestのリンク -->
+    <link rel="manifest" href="manifest.json">
+    <!-- アイコンを追加 -->
+    <link rel="icon" href="images/icon.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <div class="game-container">
+        <h1>じゃんけんアプリ</h1>
+        <div class="choices">
+            <button id="rock">グー</button>
+            <button id="scissors">チョキ</button>
+            <button id="paper">パー</button>
+        </div>
+        <h2>あなたの選択: <span id="user-choice">なし</span></h2>
+        <h2>コンピュータの選択: <span id="computer-choice">なし</span></h2>
+        <h2 id="result">結果: まだ対戦していません</h2>
+        <button id="reset">リセット</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
 
